@@ -32,6 +32,13 @@
     .hours-time{font-size:.9rem;color:#fff;font-weight:600;}
     .map-container{border-radius:16px;overflow:hidden;height:280px;background:var(--color-primary-light);display:flex;align-items:center;justify-content:center;margin-top:1.5rem;border:1px solid var(--color-border);}
     @media(max-width:900px){.contact-layout{grid-template-columns:1fr;}.contact-info-card{position:static;}.form-row{grid-template-columns:1fr;}}
+    @media(max-width:480px){
+      .contact-info-card,.form-card{padding:1.25rem;}
+      .contact-layout{gap:1.5rem;}
+      .hours-grid{grid-template-columns:1fr;}
+      .contact-info-item>div{min-width:0;}
+      .contact-info-value{overflow-wrap:anywhere;}
+    }
   </style>
 </head>
 <body>

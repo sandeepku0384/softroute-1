@@ -737,6 +737,10 @@ h6 { font-size: var(--text-base); font-weight: var(--fw-medium); }
 }
 
 /* ── 28. PRINT STYLES ────────────────────────────────────── */
+.grid > *, .two-col > *, .hero-content > *, .footer-grid > * {
+  min-width: 0;
+}
+
 @media print {
   .navbar, .footer, .btn, .cta-section { display: none !important; }
   body { color: #000; background: #fff; }

@@ -123,7 +123,14 @@ function initMobileMenu() {
 
   if (!hamburger || !mobileMenu) return;
 
+  hamburger.setAttribute('aria-controls', mobileMenu.id);
+  mobileMenu.inert = true;
+  let previousOverflow = '';
+
   function openMenu() {
+    previousOverflow = body.style.overflow;
+    mobileMenu.inert = false;
+    body.classList.add('mobile-menu-open');
     hamburger.classList.add('open');
     mobileMenu.classList.add('open');
     body.style.overflow = 'hidden';
@@ -132,14 +139,21 @@ function initMobileMenu() {
   }
 
   function closeMenu() {
+    mobileMenu.inert = true;
+    body.classList.remove('mobile-menu-open');
     hamburger.classList.remove('open');
     mobileMenu.classList.remove('open');
-    body.style.overflow = '';
+    body.style.overflow = previousOverflow;
     hamburger.setAttribute('aria-expanded', 'false');
     hamburger.setAttribute('aria-label', 'Open menu');
     // Close all submenus
     document.querySelectorAll('.mobile-submenu.open').forEach(sub => {
       sub.classList.remove('open');
+    });
+    mobileMenu.querySelectorAll('.mobile-sub-toggle').forEach(toggle => {
+      toggle.setAttribute('aria-expanded', 'false');
+      const icon = toggle.querySelector('svg');
+      if (icon) icon.style.transform = '';
     });
   }
 
