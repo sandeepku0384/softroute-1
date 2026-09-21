@@ -1,0 +1,23 @@
+# SoftRoute Info Technologies — robots.txt
+# https://www.softroute.com
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private paths if any exist
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+
+# Sitemap location
+Sitemap: https://www.softroute.com/sitemap.xml
+
+# Crawl delay for aggressive bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 10

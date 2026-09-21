@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | SoftRoute Info Technologies</title>
+  <meta name="description" content="Get in touch with SoftRoute Info Technologies. Free consultation for enterprise IT, staffing, healthcare technology and cloud solutions. Based in Hyderabad, India.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.softroute.com/contact">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"SoftRoute Info Technologies","email":"Info@gsofttech.com","address":{"@type":"PostalAddress","streetAddress":"Survey Number: 11/G194, SBH Officers Colony, Mega Hills, Ayyappa Society, Khanamet, Madhapur","addressLocality":"Hyderabad","postalCode":"500081","addressRegion":"Telangana","addressCountry":"IN"},"openingHours":"Mo-Fr 09:00-18:00"}</script>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/animations.js" defer></script>
+  <script src="js/components.js" defer></script>
+  <style>
+    .contact-layout{display:grid;grid-template-columns:1fr 1.6fr;gap:3rem;align-items:start;}
+    .contact-info-card{background:linear-gradient(135deg,var(--color-primary-darker),var(--color-primary));border-radius:20px;padding:2.5rem;color:#fff;position:sticky;top:calc(var(--navbar-height) + 1.5rem);}
+    .contact-info-item{display:flex;align-items:flex-start;gap:1rem;padding:1.25rem 0;border-bottom:1px solid rgba(255,255,255,.12);}
+    .contact-info-item:last-child{border-bottom:none;}
+    .contact-info-icon{width:44px;height:44px;border-radius:12px;background:rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+    .contact-info-icon svg{width:20px;height:20px;}
+    .contact-info-label{font-size:.78rem;color:rgba(255,255,255,.65);margin-bottom:.2rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;}
+    .contact-info-value{font-size:.95rem;color:#fff;font-weight:500;line-height:1.5;}
+    .form-card{background:#fff;border:1px solid var(--color-border);border-radius:20px;padding:2.5rem;box-shadow:var(--shadow-card);}
+    .form-row{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;}
+    .hours-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-top:1.5rem;align-items:stretch;}
+    .hours-item{background:rgba(255,255,255,.1);border-radius:10px;padding:1rem;}
+    .hours-day{font-size:.78rem;color:rgba(255,255,255,.7);margin-bottom:.15rem;}
+    .hours-time{font-size:.9rem;color:#fff;font-weight:600;}
+    .map-container{border-radius:16px;overflow:hidden;height:280px;background:var(--color-primary-light);display:flex;align-items:center;justify-content:center;margin-top:1.5rem;border:1px solid var(--color-border);}
+    @media(max-width:900px){.contact-layout{grid-template-columns:1fr;}.contact-info-card{position:static;}.form-row{grid-template-columns:1fr;}}
+  </style>
+</head>
+<body>
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<nav class="navbar navbar-solid" id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container nav-inner">
+        <a href="index.html" class="nav-logo">
+      <img src="assets/logo1.png" alt="SoftRoute Info Technologies" style="height:60px;width:auto;object-fit:contain;display:block;">
+    </a>
+    <div class="nav-menu" id="navMenu">
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+
+        <!-- Services Mega Menu -->
+        <li class="has-mega">
+          <a href="#" aria-haspopup="true">Services <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></a>
+          <div class="mega-menu">
+            <div class="mega-menu-header">Our Services</div>
+            <div class="mega-grid mega-grid-2">
+              <a href="services/app-development.html" class="mega-item">
+                <div class="mega-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+                <div class="mega-item-text"><h4>App Development</h4><p>Web, mobile & enterprise apps</p></div>
+              </a>
+              <a href="services/cloud-services.html" class="mega-item">
+                <div class="mega-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></div>
+                <div class="mega-item-text"><h4>Cloud Services</h4><p>Cloud migration & architecture</p></div>
+              </a>
+              <a href="services/cybersecurity.html" class="mega-item">
+                <div class="mega-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+                <div class="mega-item-text"><h4>Cybersecurity</h4><p>Security & risk management</p></div>
+              </a>
+              <a href="services/data-analytics-ai.html" class="mega-item">
+                <div class="mega-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg></div>
+                <div class="mega-item-text"><h4>Data Analytics & AI</h4><p>BI, ML & predictive analytics</p></div>
+              </a>
+              <a href="services/it-consulting.html" class="mega-item">
+                <div class="mega-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div>
+                <div class="mega-item-text"><h4>IT Consulting</h4><p>Technology strategy & advisory</p></div>
+              </a>
+              <a href="services/it-outsourcing.html" class="mega-item">
+                <div class="mega-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg></div>
+                <div class="mega-item-text"><h4>IT Outsourcing</h4><p>Dedicated teams & managed IT</p></div>
+              </a>
+              <a href="services/mortgage-services.html" class="mega-item">
+                <div class="mega-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+                <div class="mega-item-text"><h4>Mortgage Services</h4><p>Mortgage processing & compliance</p></div>
+              </a>
+              <a href="services/soa-web-services.html" class="mega-item">
+                <div class="mega-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg></div>
+                <div class="mega-item-text"><h4>SOA & Web Services</h4><p>APIs, microservices & integration</p></div>
+              </a>
+            </div>
+          </div>
+        </li>
+
+        <li><a href="healthcare.html">Health Care</a></li>
+
+        <!-- Industries Mega Menu -->
+        <li class="has-mega">
+          <a href="#" aria-haspopup="true">Industries <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></a>
+          <div class="mega-menu">
+            <div class="mega-menu-header">Industries We Serve</div>
+            <div class="mega-grid mega-grid-3">
+              <a href="industries/healthcare.html" class="mega-item">
+                <div class="mega-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+                <div class="mega-item-text"><h4>Healthcare</h4><p>Digital health solutions</p></div>
+              </a>
+              <a href="industries/retail.html" class="mega-item">
+                <div class="mega-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></div>
+                <div class="mega-item-text"><h4>Retail</h4><p>Omnichannel commerce</p></div>
+              </a>
+              <a href="industries/tourism-hospitality.html" class="mega-item">
+                <div class="mega-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+                <div class="mega-item-text"><h4>Tourism & Hospitality</h4><p>Hotel & booking technology</p></div>
+              </a>
+              <a href="industries/agriculture.html" class="mega-item">
+                <div class="mega-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+                <div class="mega-item-text"><h4>Agriculture</h4><p>Smart farming solutions</p></div>
+              </a>
+              <a href="industries/education.html" class="mega-item">
+                <div class="mega-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg></div>
+                <div class="mega-item-text"><h4>Education</h4><p>Digital learning platforms</p></div>
+              </a>
+              <a href="industries/financial.html" class="mega-item">
+                <div class="mega-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+                <div class="mega-item-text"><h4>Financial</h4><p>Fintech & compliance</p></div>
+              </a>
+            </div>
+          </div>
+        </li>
+
+        <li><a href="outsourcing.html">Out Sourcing</a></li>
+
+        <!-- Technologies Mega Menu -->
+        <li class="has-mega">
+          <a href="#" aria-haspopup="true">Technologies <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></a>
+          <div class="mega-menu mega-menu-wide">
+            <div class="mega-menu-header">Technology Expertise</div>
+            <div class="mega-grid mega-grid-3">
+              <a href="technologies/aws.html" class="mega-item"><div class="mega-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg></div><div class="mega-item-text"><h4>AWS</h4><p>Cloud architecture & DevOps</p></div></a>
+              <a href="technologies/digital-marketing.html" class="mega-item"><div class="mega-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div><div class="mega-item-text"><h4>Digital Marketing</h4><p>SEO, PPC, social media</p></div></a>
+              <a href="technologies/saas.html" class="mega-item"><div class="mega-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div><div class="mega-item-text"><h4>SaaS</h4><p>Multi-tenant cloud platforms</p></div></a>
+              <a href="technologies/oracle.html" class="mega-item"><div class="mega-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg></div><div class="mega-item-text"><h4>Oracle</h4><p>Enterprise database & ERP</p></div></a>
+              <a href="technologies/salesforce.html" class="mega-item"><div class="mega-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><div class="mega-item-text"><h4>Salesforce</h4><p>CRM & sales automation</p></div></a>
+              <a href="technologies/sap.html" class="mega-item">
+                <div class="mega-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg></div>
+                <div class="mega-item-text"><h4>SAP</h4><p>Enterprise database & ERP</p></div>
+              </a>
+              <a href="technologies/microsoft-crm.html" class="mega-item">
+                <div class="mega-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+                <div class="mega-item-text"><h4>Microsoft Dynamics 365</h4><p>CRM & business applications</p></div>
+              </a>
+              <a href="technologies/sql-database.html" class="mega-item"><div class="mega-item-icon"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg></div><div class="mega-item-text"><h4>SQL Database</h4><p>Design, admin & optimization</p></div></a>
+            </div>
+            <div style="padding-top:1rem;margin-top:0.5rem;border-top:1px solid var(--color-border);display:flex;gap:0.5rem;flex-wrap:wrap;">
+              <a href="technologies/ajax-json.html" class="badge badge-primary" style="text-decoration:none;">AJAX / JSON</a>
+              <a href="technologies/apache.html" class="badge badge-primary" style="text-decoration:none;">Apache</a>
+              <a href="technologies/j2ee-j2se.html" class="badge badge-primary" style="text-decoration:none;">J2EE / J2SE</a>
+              <a href="technologies/vlsi.html" class="badge badge-primary" style="text-decoration:none;">VLSI</a>
+            </div>
+          </div>
+        </li>
+
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="nav-actions">
+      <a href="contact.html" class="btn btn-primary nav-cta">Get Consultation</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+  <ul class="mobile-nav-list">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li>
+      <button class="mobile-sub-toggle" data-submenu="mobileServices" aria-expanded="false">
+        Services <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </button>
+      <div class="mobile-submenu" id="mobileServices">
+        <a href="services/app-development.html">App Development</a>
+        <a href="services/cloud-services.html">Cloud Services</a>
+        <a href="services/cybersecurity.html">Cybersecurity</a>
+        <a href="services/data-analytics-ai.html">Data Analytics & AI</a>
+        <a href="services/it-consulting.html">IT Consulting</a>
+        <a href="services/it-outsourcing.html">IT Outsourcing</a>
+        <a href="services/mortgage-services.html">Mortgage Services</a>
+        <a href="services/soa-web-services.html">SOA & Web Services</a>
+      </div>
+    </li>
+    <li><a href="healthcare.html">Health Care</a></li>
+    <li>
+      <button class="mobile-sub-toggle" data-submenu="mobileIndustries" aria-expanded="false">
+        Industries <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </button>
+      <div class="mobile-submenu" id="mobileIndustries">
+        <a href="industries/healthcare.html">Healthcare</a>
+        <a href="industries/retail.html">Retail</a>
+        <a href="industries/tourism-hospitality.html">Tourism & Hospitality</a>
+        <a href="industries/agriculture.html">Agriculture</a>
+        <a href="industries/education.html">Education</a>
+        <a href="industries/financial.html">Financial</a>
+      </div>
+    </li>
+    <li><a href="outsourcing.html">Out Sourcing</a></li>
+    <li>
+      <button class="mobile-sub-toggle" data-submenu="mobileTech" aria-expanded="false">
+        Technologies <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </button>
+      <div class="mobile-submenu" id="mobileTech">
+        <a href="technologies/aws.html">AWS</a>
+        <a href="technologies/digital-marketing.html">Digital Marketing</a>
+        <a href="technologies/saas.html">SaaS</a>
+        <a href="technologies/ajax-json.html">AJAX / JSON</a>
+        <a href="technologies/oracle.html">Oracle</a>
+        <a href="technologies/apache.html">Apache</a>
+        <a href="technologies/j2ee-j2se.html">J2EE / J2SE</a>
+        <a href="technologies/vlsi.html">VLSI</a>
+        <a href="technologies/sql-database.html">SQL Database</a>
+        <a href="technologies/salesforce.html">Salesforce</a>
+        <a href="technologies/sap.html">SAP</a>
+        <a href="technologies/microsoft-crm.html">Microsoft Dynamics 365</a>
+      </div>
+    </li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+  <div class="mobile-menu-cta">
+    <a href="contact.html" class="btn btn-primary">Get Free Consultation</a>
+  </div>
+</div>
+
+<main>
+
+<!-- HERO -->
+<section class="page-hero hero-gradient" aria-label="Contact hero">
+  <div class="container hero-inner">
+    <div class="hero-content" style="grid-template-columns:1fr 1fr;gap:2rem;align-items:center;max-width:100%;">
+      <div class="hero-text" style="max-width:640px;">
+        <nav aria-label="Breadcrumb" style="margin-bottom:1.5rem;"><ol style="display:flex;gap:.5rem;font-size:.85rem;color:rgba(255,255,255,.7);list-style:none;flex-wrap:wrap;"><li><a href="index.html" style="color:rgba(255,255,255,.8);text-decoration:none;">Home</a></li><li style="color:rgba(255,255,255,.4);">/</li><li style="color:#fff;">Contact Us</li></ol></nav>
+        <div class="hero-eyebrow"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg> Get In Touch</div>
+        <h1 class="hero-title">Let's Build The Future Together</h1>
+        <p class="hero-subtitle">Whether you need a technology consultation, staffing solution or a strategic partnership — our team is ready to help. Response within 24 business hours, guaranteed.</p>
+      </div>
+      <div class="hero-visual"><img src="assets/images/contact.jpg" alt="Contact Us" style="width:100%;height:400px;object-fit:cover;border-radius:16px;"></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT FORM + INFO -->
+<section class="section">
+  <div class="container">
+    <div class="contact-layout">
+
+      <!-- Left: Info Card -->
+      <div class="reveal-left">
+        <div class="contact-info-card">
+          <h3 style="font-size:1.3rem;font-weight:700;color:#fff;margin-bottom:1.5rem;">Contact Information</h3>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <div><div class="contact-info-label">Office Address</div><div class="contact-info-value">Survey Number: 11/G194, SBH Officers Colony, Mega Hills, Ayyappa Society, Khanamet, Madhapur, Hyderabad - 500081</div></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+            <div><div class="contact-info-label">Email Address</div><div class="contact-info-value">Info@gsofttech.com</div></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.56 3.44 2 2 0 0 1 3.54 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+            <div><div class="contact-info-label">Phone Number</div><div class="contact-info-value">040-45524024</div></div>
+          </div>
+          <div style="margin-top:1.5rem;">
+            <div class="contact-info-label" style="margin-bottom:1rem;">Business Hours</div>
+            <div class="hours-grid">
+              <div class="hours-item"><div class="hours-day">Monday – Friday</div><div class="hours-time">9:00 AM – 6:00 PM</div></div>
+              <div class="hours-item"><div class="hours-day">Saturday</div><div class="hours-time">10:00 AM – 2:00 PM</div></div>
+              <div class="hours-item"><div class="hours-day">Sunday</div><div class="hours-time">Closed</div></div>
+              <div class="hours-item"><div class="hours-day">Timezone</div><div class="hours-time">IST (UTC+5:30)</div></div>
+            </div>
+          </div>
+          <!-- Map placeholder -->
+          <div class="map-container">
+            <div style="text-align:center;color:var(--color-text-muted);">
+              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#23679A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="margin:0 auto 1rem;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <p style="font-size:.9rem;font-weight:600;color:var(--color-primary);">Hyderabad - 500081</p>
+              <p style="font-size:.8rem;margin-top:.25rem;">India</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Form -->
+      <div class="reveal-right">
+        <div class="form-card">
+          <h3 style="font-size:1.5rem;font-weight:700;margin-bottom:.5rem;">Send Us a Message</h3>
+          <p style="color:var(--color-text-muted);margin-bottom:2rem;font-size:.95rem;">Fill out the form below and our team will respond within 24 business hours.</p>
+
+          <form class="contact-form" id="contactForm" novalidate>
+            <div style="display:flex;flex-direction:column;gap:1.25rem;">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="fullName">Full Name <span>*</span></label>
+                  <input class="form-input" type="text" id="fullName" name="fullName" placeholder="John Smith" required autocomplete="name">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="email">Email Address <span>*</span></label>
+                  <input class="form-input" type="email" id="email" name="email" placeholder="john@company.com" required autocomplete="email">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="phone">Phone Number</label>
+                  <input class="form-input" type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" autocomplete="tel">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="company">Company Name</label>
+                  <input class="form-input" type="text" id="company" name="company" placeholder="Your Company Inc." autocomplete="organization">
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="service">Service of Interest</label>
+                <select class="form-select" id="service" name="service">
+                  <option value="">Select a service...</option>
+                  <option value="app-development">App Development</option>
+                  <option value="cloud-services">Cloud Services</option>
+                  <option value="data-analytics-ai">Data Analytics &amp; AI</option>
+                  <option value="it-consulting">IT Consulting</option>
+                  <option value="it-outsourcing">IT Outsourcing</option>
+                  <option value="mortgage-services">Mortgage Services</option>
+                  <option value="soa-web-services">SOA &amp; Web Services</option>
+                  <option value="healthcare">Healthcare IT</option>
+                  <option value="cloud">Cloud / AWS</option>
+                  <option value="other">Other / General Inquiry</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="message">Message <span>*</span></label>
+                <textarea class="form-textarea" id="message" name="message" placeholder="Tell us about your project, goals, timeline and any specific requirements..." required rows="5"></textarea>
+              </div>
+              <div class="form-success"></div>
+              <div class="form-submit">
+                <button type="submit" class="btn btn-primary btn-lg" style="width:100%;justify-content:center;">
+                  Send Message
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUICK CONTACT CARDS -->
+<section class="section section-bg-light" style="padding-top:2rem;">
+  <div class="container">
+    <div class="grid grid-3 stagger">
+      <div class="glass-card-light reveal" style="padding:2rem;text-align:center;">
+        <div class="card-icon" style="margin:0 auto 1.25rem;"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+        <h3 style="font-size:1.1rem;font-weight:700;margin-bottom:.5rem;">General Inquiry</h3>
+        <p style="font-size:.9rem;color:var(--color-text-muted);margin-bottom:1rem;">Questions about our services, pricing or capabilities.</p>
+        <a href="mailto:Info@gsofttech.com" style="color:var(--color-primary);font-weight:600;font-size:.9rem;">Info@gsofttech.com</a>
+      </div>
+      <div class="glass-card-light reveal" style="padding:2rem;text-align:center;">
+        <div class="card-icon" style="margin:0 auto 1.25rem;background:#e8f8f0;color:#38a169;"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <h3 style="font-size:1.1rem;font-weight:700;margin-bottom:.5rem;">Staffing Inquiry</h3>
+        <p style="font-size:.9rem;color:var(--color-text-muted);margin-bottom:1rem;">Hiring needs, talent sourcing and workforce planning.</p>
+        <a href="mailto:Info@gsofttech.com" style="color:var(--color-primary);font-weight:600;font-size:.9rem;">Info@gsofttech.com</a>
+      </div>
+      <div class="glass-card-light reveal" style="padding:2rem;text-align:center;">
+        <div class="card-icon" style="margin:0 auto 1.25rem;background:#fff8e8;color:#d69e2e;"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
+        <h3 style="font-size:1.1rem;font-weight:700;margin-bottom:.5rem;">Support</h3>
+        <p style="font-size:.9rem;color:var(--color-text-muted);margin-bottom:1rem;">Existing client support, technical assistance and help.</p>
+        <a href="mailto:Info@gsofttech.com" style="color:var(--color-primary);font-weight:600;font-size:.9rem;">Info@gsofttech.com</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section gradient-primary">
+  <div class="container">
+    <div class="cta-inner reveal">
+      <div class="cta-text">
+        <h2>Prefer to Talk Directly?</h2>
+        <p>Our enterprise consultants are available during business hours. No pressure, just an honest conversation about your technology needs.</p>
+      </div>
+      <div class="cta-actions">
+        <a href="tel:04045524024" class="btn btn-white btn-lg">Call Us Now</a>
+        <a href="index.html#services" class="btn btn-outline-white btn-lg">Explore Services</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer" role="contentinfo">
+  <div class="footer-top">
+    <div class="container footer-grid">
+      <!-- Brand -->
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="SoftRoute Info Technologies" style="height:60px;width:auto;object-fit:contain;display:block;margin-right:auto;margin-left:0;">
+        <p class="footer-brand-desc">Transforming businesses through intelligent technology solutions. Enterprise software, staffing, healthcare IT and cloud services.</p>
+        <div class="footer-social">
+          <a href="#" class="social-link" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+          <a href="#" class="social-link" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+          <a href="#" class="social-link" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="#" class="social-link" aria-label="YouTube"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg></a>
+        </div>
+      </div>
+
+      <!-- Services -->
+      <div>
+        <h3 class="footer-col-title">Services</h3><ul class="footer-links"><li><a href="services/app-development.html">App Development</a></li><li><a href="services/cloud-services.html">Cloud Services</a></li><li><a href="services/cybersecurity.html">Cybersecurity</a></li><li><a href="services/data-analytics-ai.html">Data Analytics &amp; AI</a></li><li><a href="services/it-consulting.html">IT Consulting</a></li><li><a href="services/it-outsourcing.html">IT Outsourcing</a></li><li><a href="services/mortgage-services.html">Mortgage Services</a></li><li><a href="services/soa-web-services.html">SOA &amp; Web Services</a></li></ul>
+      </div>
+
+      <!-- Industries -->
+      <div>
+        <h3 class="footer-col-title">Industries</h3>
+        <ul class="footer-links">
+          <li><a href="industries/healthcare.html">Healthcare</a></li>
+          <li><a href="industries/retail.html">Retail</a></li>
+          <li><a href="industries/tourism-hospitality.html">Tourism & Hospitality</a></li>
+          <li><a href="industries/agriculture.html">Agriculture</a></li>
+          <li><a href="industries/education.html">Education</a></li>
+          <li><a href="industries/financial.html">Financial</a></li>
+        </ul>
+      </div>
+
+      <!-- Technologies -->
+      <div>
+        <h3 class="footer-col-title">Technologies</h3>
+        <ul class="footer-links">
+          <li><a href="technologies/aws.html">AWS Cloud</a></li>
+          <li><a href="technologies/digital-marketing.html">Digital Marketing</a></li>
+          <li><a href="technologies/salesforce.html">Salesforce</a></li><li><a href="technologies/sap.html">SAP</a></li><li><a href="technologies/microsoft-crm.html">Microsoft Dynamics 365</a></li>
+          <li><a href="technologies/oracle.html">Oracle</a></li>
+          <li><a href="technologies/sql-database.html">SQL Database</a></li>
+          <li><a href="technologies/saas.html">SaaS</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div>
+        <h3 class="footer-col-title">Contact Us</h3>
+        <div class="footer-contact-info">
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Survey Number: 11/G194, SBH Officers Colony, Mega Hills, Ayyappa Society, Khanamet, Madhapur, Hyderabad - 500081
+          </div>
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Info@gsofttech.com
+          </div>
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.56 3.44 2 2 0 0 1 3.54 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            040-45524024
+          </div>
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            Mon – Fri: 9AM – 6PM IST
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container footer-bottom-inner">
+      <p class="footer-copyright">© SoftRoute Info Technologies. All rights reserved.</p>
+      <nav class="footer-legal" aria-label="Legal links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="sitemap.xml">Sitemap</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+<button id="backToTop" aria-label="Back to top" style="position:fixed;bottom:2rem;right:2rem;width:44px;height:44px;border-radius:50%;background:var(--color-primary);color:white;border:none;cursor:pointer;display:none;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(35,103,154,0.4);z-index:100;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg></button>
+<style>#backToTop.visible{display:flex!important;}</style>
+</body>
+</html>

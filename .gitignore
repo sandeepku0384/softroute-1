@@ -1,0 +1,12 @@
+# Claude Code project context (contains credentials)
+CLAUDE.md
+
+# Environment variables
+.env
+.env.local
+
+# Dependencies
+node_modules/
+
+# Logs
+*.log

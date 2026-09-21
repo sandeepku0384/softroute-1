@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- ═══════════════════════════════════════════════
+       CORE PAGES
+  ════════════════════════════════════════════════ -->
+  <url>
+    <loc>https://www.softroute.com/</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/about</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/contact</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/healthcare</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/outsourcing</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════
+       SERVICE PAGES
+  ════════════════════════════════════════════════ -->
+  <url>
+    <loc>https://www.softroute.com/services/international-staffing</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/services/ar-calling-services</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/services/erp-application</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/services/enterprise-portal</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/services/saas-development</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/services/bpo-kpo-services</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════
+       INDUSTRY PAGES
+  ════════════════════════════════════════════════ -->
+  <url>
+    <loc>https://www.softroute.com/industries/healthcare</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/industries/retail</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/industries/tourism-hospitality</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/industries/agriculture</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/industries/education</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/industries/financial</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+
+  <!-- ═══════════════════════════════════════════════
+       TECHNOLOGY PAGES
+  ════════════════════════════════════════════════ -->
+  <url>
+    <loc>https://www.softroute.com/technologies/aws</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/technologies/digital-marketing</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/technologies/saas</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/technologies/ajax-json</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/technologies/oracle</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/technologies/apache</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/technologies/salesforce</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/technologies/j2ee-j2se</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/technologies/vlsi</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://www.softroute.com/technologies/sql-database</loc>
+    <lastmod>2024-12-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+</urlset>
