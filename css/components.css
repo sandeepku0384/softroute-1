@@ -1360,6 +1360,7 @@
 }
 
 @media (max-width: 1024px) {
+  .nav-actions .nav-cta { display: none; }
   .hamburger {
     display: flex;
     width: 44px;
@@ -1394,7 +1395,6 @@
   .nav-inner { gap: var(--space-3); }
   .nav-logo { min-width: 0; flex-shrink: 1; }
   .nav-logo img { max-width: 100%; object-fit: contain; }
-  .nav-actions .nav-cta { display: none; }
   .hamburger { width: 44px; height: 44px; flex-shrink: 0; }
   .hero-title { font-size: clamp(1.75rem, 8vw, 2.75rem); overflow-wrap: anywhere; }
   .hero-inner, .page-hero .hero-inner { padding-block: var(--space-10); }
